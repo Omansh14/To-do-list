@@ -34,6 +34,7 @@ addBtn.onclick=()=>{
     addBtn.classList.remove('active');//unactive add button
 
 }
+    //Function to add task list inside ul
     function showTasks(){
     let getLocalStorage= localStorage.getItem('New Todo');
 
